@@ -19,6 +19,10 @@ namespace User_Auth_WebApp.Controllers
         {
             return View();
         }
+        public IActionResult Profile()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {

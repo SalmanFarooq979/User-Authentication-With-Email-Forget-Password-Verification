@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("User_Auth_WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a18d523a8987d8a43daeaea7d7fdae0799cba584")]
 [assembly: System.Reflection.AssemblyProductAttribute("User_Auth_WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("User_Auth_WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.Net Core Practice\\User_Auth_WebApp\\User_Auth_WebApp\\User_Auth_WebApp.csproj": {}
+    "D:\\User-Authentication-With-Email-Forget-Password-Verification\\User_Auth_WebApp\\User_Auth_WebApp.csproj": {}
   },
   "projects": {
-    "D:\\ASP.Net Core Practice\\User_Auth_WebApp\\User_Auth_WebApp\\User_Auth_WebApp.csproj": {
+    "D:\\User-Authentication-With-Email-Forget-Password-Verification\\User_Auth_WebApp\\User_Auth_WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.Net Core Practice\\User_Auth_WebApp\\User_Auth_WebApp\\User_Auth_WebApp.csproj",
+        "projectUniqueName": "D:\\User-Authentication-With-Email-Forget-Password-Verification\\User_Auth_WebApp\\User_Auth_WebApp.csproj",
         "projectName": "User_Auth_WebApp",
-        "projectPath": "D:\\ASP.Net Core Practice\\User_Auth_WebApp\\User_Auth_WebApp\\User_Auth_WebApp.csproj",
+        "projectPath": "D:\\User-Authentication-With-Email-Forget-Password-Verification\\User_Auth_WebApp\\User_Auth_WebApp.csproj",
         "packagesPath": "C:\\Users\\mugha\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.Net Core Practice\\User_Auth_WebApp\\User_Auth_WebApp\\obj\\",
+        "outputPath": "D:\\User-Authentication-With-Email-Forget-Password-Verification\\User_Auth_WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[8.0.17, )"
             },

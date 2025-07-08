@@ -164,7 +164,7 @@ namespace User_Auth_WebApp.Controllers.Authentication
             var user = await userManager.FindByIdAsync(forget.UserID);
             if (user == null) 
             {
-                return View(forget);
+               return View(forget);
             }
             var result = await userManager.ResetPasswordAsync(user,forget.Token,forget.Password);
             if (result.Succeeded) 
